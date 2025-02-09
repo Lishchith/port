@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'; // Import icons from reac
 const Hero = () => {
   return (
     <section id="hero" className="hero">
-      <img src="./assets/Lishchith.jpg" alt="Lishchith K R" className="profile-pic" />
+      <img src=".././public/Lishchith.jpg" alt="Lishchith K R" className="profile-pic" />
       <div className="hero-content">
         <h2>Hi, I'am </h2>
         <h1>Lishchith K R</h1>
