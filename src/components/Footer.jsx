@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer-container">
         <p>&copy; {new Date().getFullYear()} Lishchith K R . All rights reserved.</p>
         <div className="social-icons">
-          <a href="https://github.com/yourgithub" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/Lishchith/" target="_blank" rel="noopener noreferrer">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
           </a>
           <a href="https://linkedin.com/in/yourlinkedin" target="_blank" rel="noopener noreferrer">
