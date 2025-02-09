@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Arial", sans-serif;
+  }
+  
+  /* Navbar Container */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 2rem;
+    background: linear-gradient(150deg, #ffffff, #00FFFF);
+    color: #00b7ff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  /* Navigation Links */
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+    font-weight: 500;
+  }
+  
+  .navbar-links a:hover {
+    color: #0000FF;
+  }
+  
+  /* Burger Menu */
+  .burger-menu {
+    display: none;
+    cursor: pointer;
+    width: 35px;
+    height: 30px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .burger-menu span {
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: white;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+  }
+  
+  /* Burger Menu Animation */
+  .burger-menu.open span:nth-child(1) {
+    transform: translateY(11px) rotate(45deg);
+  }
+  .burger-menu.open span:nth-child(2) {
+    opacity: 0;
+  }
+  .burger-menu.open span:nth-child(3) {
+    transform: translateY(-11px) rotate(-45deg);
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .burger-menu {
+      display: flex;
+    }
+  
+    .navbar-links {
+      position: absolute;
+      top: 100%;
+      right: 0;
+      width: 33%;
+      height: 100vh;
+      background: #00FFFF;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem 0;
+      display: none;
+      transition: all 0.3s ease-in-out;
+    }
+  
+    .navbar-links.active {
+      display: flex;
+    }
+  
+    .navbar-links li {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .navbar-links a {
+      display: block;
+      width: 100%;
+      padding: 0.8rem;
+    }
+  }
+  

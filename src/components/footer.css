@@ -1,0 +1,30 @@
+/* footer.css */
+footer {
+    background-color: #00ffff8d;
+    color: #002147;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-icons a img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .social-icons a img:hover {
+    transform: scale(1.2);
+  }
+  

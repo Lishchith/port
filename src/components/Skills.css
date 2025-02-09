@@ -1,0 +1,76 @@
+
+/* Skills.css */
+.skills {
+    text-align: center;
+    padding: 3rem 2rem;
+    background: linear-gradient(135deg, #ffffff, #00ffff8d);
+    color: #002147;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #00b7ff;
+  }
+  
+  .experience-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .about-containers {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .details-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    text-align: center;
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .experience-sub-title {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #002147;
+  }
+  
+  .article-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+  }
+  
+  .article-container article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #00b7ff;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  
+  .icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 0.5rem;
+  }
+  
