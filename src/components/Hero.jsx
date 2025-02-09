@@ -12,7 +12,7 @@ const Hero = () => {
         <h1>Lishchith K R</h1>
         <p>Passionate Web Developer | Innovator | Problem Solver</p>
         <div className="hero-buttons">
-          <a href="#resume" className="resume-button" onClick={() => window.open("./src/assets/LISHCHITH.pdf")}>My Resume</a>
+          <a href="#resume" className="resume-button" onClick={() => window.open("./LISHCHITH.pdf")}>My Resume</a>
           <a href="#contact" className="contact-button">Contact Me</a>
         
         <div className="social-icons">
