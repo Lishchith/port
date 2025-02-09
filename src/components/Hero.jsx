@@ -16,10 +16,10 @@ const Hero = () => {
           <a href="#contact" className="contact-button">Contact Me</a>
         
         <div className="social-icons">
-          <a href="https://github.com/your-github" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/Lishchith/" target="_blank" rel="noopener noreferrer">
             <FaGithub className="icon" />
           </a>
-          <a href="https://linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer">
+          <a href="https://linkedin.com/in/lishchith" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className="icon" />
           </a>
           </div>
